@@ -12,4 +12,4 @@ Vitesse stable, précision ±5 %
 
 ### Fichiers
 - [Code Arduino](code/EspC6.ino)
-- [Images](images/photoBien)
+- [Images](images/mitrailleuse.png)
