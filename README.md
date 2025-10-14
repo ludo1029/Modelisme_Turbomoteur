@@ -12,4 +12,4 @@ Vitesse stable, précision ±5 %
 
 ### Fichiers
 - [Code Arduino](code/EspC6.ino)
-- [Images](images/photo bato de 3_4.png)
+- [Images](images/photoBien)
