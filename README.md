@@ -84,4 +84,4 @@ void loop() {
   delay(10);  // Petite pause pour stabilité
 }
 
-
+## 🖥️ Code Arduino
