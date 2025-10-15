@@ -60,28 +60,22 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
 
 ```cpp
 // Déclaration des broches
-const int potPin = A0;    // Entrée analogique du potentiomètre
-const int mosfetPin = 9;  // Sortie PWM vers la gate du MOSFET
+const int potPin = A0;
+const int mosfetPin = D3;
 
-int potValue = 0;          // Valeur lue du potentiomètre
-int pwmValue = 0;          // Valeur PWM calculée
+int potValue = 0;     
+int pwmValue = 0;         
 
 void setup() {
-  pinMode(mosfetPin, OUTPUT);  // MOSFET en sortie
-  Serial.begin(9600);          // Pour debug (optionnel)
+  pinMode(mosfetPin, OUTPUT); 
+  Serial.begin(9600);      
 }
 
 void loop() {
-  // Lire la valeur du potentiomètre (0 à 1023)
   potValue = analogRead(potPin);
-
-  // Convertir en PWM (0 à 255)
   pwmValue = map(potValue, 0, 1023, 0, 255);
 
-  // Appliquer la PWM au MOSFET
   analogWrite(mosfetPin, pwmValue);
-
-  // Afficher les valeurs pour debug
   Serial.print("Potentiomètre: ");
   Serial.print(potValue);
   Serial.print("  PWM: ");
