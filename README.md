@@ -33,7 +33,10 @@ L’objectif est de **simuler le comportement d’un réacteur** (entrée d’ai
 ## 🔌 Schéma électronique
 Le schéma suivant illustre les connexions entre les composants :
 
-![Schéma électronique](schema%20elec.png)
+<p align="center">
+  <img src="schema%20elec" alt="Schéma" width="400"/>
+  <img src="DHVampire.png" alt="DH Vampire" width="400"/>
+</p>
 
 Le **MOSFET** permet de contrôler la puissance fournie au moteur en fonction du signal PWM envoyé par l’Arduino.  
 Le **potentiomètre** est relié à une entrée analogique pour ajuster la vitesse de rotation.
