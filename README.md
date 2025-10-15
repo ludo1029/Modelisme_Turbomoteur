@@ -94,12 +94,12 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
 <br>
 
 <p align="center">
-  <video width="640" controls>
-    <source src="media/20250729_171119.mp4" type="video/mp4">
-    Votre navigateur ne supporte pas la lecture vidéo.
-  </video>
+  <a href="https://www.youtube.com/watch?v=yXf2JDLtGuI" target="_blank">
+    🎬 Voir la vidéo du projet sur YouTube
+  </a>
 </p>
 
 <br>
+
 
 
