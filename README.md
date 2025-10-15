@@ -83,5 +83,12 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
   
     delay(10);  // Petite pause pour stabilité
   }
-  '''
-  ## 🖥️ Code Arduino
+  ```
+  ## 🖥️ Rendu photo et video
+
+<p align="center">
+  <img src="Rendu1.jpg" alt="Schéma" width="400" height="250"/>
+  <img src="Rendu2.jpg" alt="DH Vampire" width="400" height="250"/>
+  <img src="Rendu3.jpg" alt="Schéma" width="400" height="250"/>
+  <img src="Rendu4.jpg" alt="DH Vampire" width="400" height="250"/>
+</p>
