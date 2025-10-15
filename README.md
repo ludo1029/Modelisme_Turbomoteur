@@ -88,7 +88,18 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
 
 <p align="center">
   <img src="Rendu1.JPG" alt="Sc" width="400" height="250"/>
-  <img src="Rendu2.JPG" alt="DH Vampire" width="400" height="250"/>
   <img src="Rendu3.JPG" alt="Schéma" width="400" height="250"/>
-  <img src="Rendu4.JPG" alt="DH Vampire" width="400" height="250"/>
 </p>
+
+<br>
+
+<p align="center">
+  <video width="640" controls>
+    <source src="20250729_171119.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la lecture vidéo.
+  </video>
+</p>
+
+<br>
+
+
