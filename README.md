@@ -91,15 +91,9 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
   <img src="Rendu3.JPG" alt="Schéma" width="400" height="250"/>
 </p>
 
-<br>
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=yXf2JDLtGuI" target="_blank">
-    🎬 Voir la vidéo du projet sur YouTube
-  </a>
-</p>
-
-<br>
-
+<video width="640" controls>
+  <source src="media/ton_fichier.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture vidéo.
+</video>
 
 
