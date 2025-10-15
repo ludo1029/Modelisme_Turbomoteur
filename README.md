@@ -35,7 +35,7 @@ Le schéma suivant illustre les connexions entre les composants :
 
 <p align="center">
   <img src="schema elec.png" alt="Schéma" width="400"/>
-  <img src="DHVampire.png" alt="DH Vampire" width="400"/>
+  <img src="ShemElec.png" alt="DH Vampire" width="400"/>
 </p>
 
 Le **MOSFET** permet de contrôler la puissance fournie au moteur en fonction du signal PWM envoyé par l’Arduino.  
