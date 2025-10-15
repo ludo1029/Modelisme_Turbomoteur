@@ -25,7 +25,8 @@ L’objectif est de **simuler le comportement d’un réacteur** (entrée d’ai
 - Breadboard  
 - Fils de connexion  
 - Pile 9V
-- Interrupteur  
+- Interrupteur
+- Diode de roue libre
 
 ---
 
