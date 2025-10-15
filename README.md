@@ -92,7 +92,7 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
 </p>
 
 <video width="640" controls>
-  <source src="media/ton_fichier.mp4" type="video/mp4">
+  <source src="media/videoo.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture vidéo.
 </video>
 
