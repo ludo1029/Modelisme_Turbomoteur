@@ -1,7 +1,10 @@
 # 🚀 Projet - Réacteur miniature contrôlé par Arduino
 
 ## 🧠 Description du projet
-Ce projet a pour but de **reproduire le fonctionnement d’un réacteur d’avion** à l’aide d’un **moteur électrique contrôlé par un Arduino Uno**.  
+Ce projet a pour but de **reproduire le fonctionnement d’un réacteur d’avion** à l’aide d’un **moteur électrique contrôlé par un Arduino Uno**.
+Je me suis inspiré d'un turboréacteur à compresseur centrifuge equipant notamment les DH100 Vampire
+![DhVampire](DHVampire.webp)
+
 Un **potentiomètre** permet de régler la vitesse du moteur, tandis qu’un **MOSFET** assure la commande de puissance via une alimentation externe (pile 9V).
 
 L’objectif est de **simuler le comportement d’un réacteur** (entrée d’air, compression, combustion, turbine, tuyère) de manière visuelle et interactive.
