@@ -87,8 +87,8 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
   ## 🖥️ Rendu photo et video
 
 <p align="center">
-  <img src="Rendu1.jpg" alt="Schéma" width="400" height="250"/>
-  <img src="Rendu2.jpg" alt="DH Vampire" width="400" height="250"/>
-  <img src="Rendu3.jpg" alt="Schéma" width="400" height="250"/>
-  <img src="Rendu4.jpg" alt="DH Vampire" width="400" height="250"/>
+  <img src="Rendu1.JPG" alt="Sc" width="400" height="250"/>
+  <img src="Rendu2.JPG" alt="DH Vampire" width="400" height="250"/>
+  <img src="Rendu3.JPG" alt="Schéma" width="400" height="250"/>
+  <img src="Rendu4.JPG" alt="DH Vampire" width="400" height="250"/>
 </p>
