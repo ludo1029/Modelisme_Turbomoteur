@@ -5,8 +5,8 @@ Ce projet a pour but de **reproduire le fonctionnement d’un réacteur d’avio
 Je me suis inspiré d'un turboréacteur à compresseur centrifuge equipant notamment les DH100 Vampire.
 
 <p align="center">
-  <img src="DHVampire.webp" alt="Schéma" width="400"/>
-  <img src="DHVampire.png" alt="DH Vampire" width="400"/>
+  <img src="DHVampire.webp" alt="Schéma" width="400" height="250"/>
+  <img src="DHVampire.png" alt="DH Vampire" width="400" height="250"/>
 </p>
 
 Alors en **stage chez Safran**, j’ai pu approfondir mes compétences en **CAO (Conception Assistée par Ordinateur)** et en **mécanique des systèmes aéronautiques**.  
@@ -34,8 +34,8 @@ L’objectif est de **simuler le comportement d’un réacteur** (entrée d’ai
 Le schéma suivant illustre les connexions entre les composants :
 
 <p align="center">
-  <img src="schema elec.png" alt="Schéma" width="400"/>
-  <img src="ShemElec.png" alt="DH Vampire" width="400"/>
+  <img src="schema elec.png" alt="Schéma" width="400" height="250"/>
+  <img src="ShemElec.png" alt="DH Vampire" width="400" height="250"/>
 </p>
 
 Le **MOSFET** permet de contrôler la puissance fournie au moteur en fonction du signal PWM envoyé par l’Arduino.  
