@@ -58,30 +58,30 @@ Le **potentiomètre** est relié à une entrée analogique pour ajuster la vites
 ## 🖥️ Code Arduino
 Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du moteur proportionnellement :
 
-```cpp
-// Déclaration des broches
-const int potPin = A0;
-const int mosfetPin = D3;
-
-int potValue = 0;     
-int pwmValue = 0;         
-
-void setup() {
-  pinMode(mosfetPin, OUTPUT); 
-  Serial.begin(9600);      
-}
-
-void loop() {
-  potValue = analogRead(potPin);
-  pwmValue = map(potValue, 0, 1023, 0, 255);
-
-  analogWrite(mosfetPin, pwmValue);
-  Serial.print("Potentiomètre: ");
-  Serial.print(potValue);
-  Serial.print("  PWM: ");
-  Serial.println(pwmValue);
-
-  delay(10);  // Petite pause pour stabilité
-}
-
-## 🖥️ Code Arduino
+  ```cpp
+  // Déclaration des broches
+  const int potPin = A0;
+  const int mosfetPin = D3;
+  
+  int potValue = 0;     
+  int pwmValue = 0;         
+  
+  void setup() {
+    pinMode(mosfetPin, OUTPUT); 
+    Serial.begin(9600);      
+  }
+  
+  void loop() {
+    potValue = analogRead(potPin);
+    pwmValue = map(potValue, 0, 1023, 0, 255);
+  
+    analogWrite(mosfetPin, pwmValue);
+    Serial.print("Potentiomètre: ");
+    Serial.print(potValue);
+    Serial.print("  PWM: ");
+    Serial.println(pwmValue);
+  
+    delay(10);  // Petite pause pour stabilité
+  }
+  '''
+  ## 🖥️ Code Arduino
