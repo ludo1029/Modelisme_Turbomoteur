@@ -5,7 +5,8 @@ Ce projet a pour but de **reproduire le fonctionnement d’un réacteur d’avio
 Je me suis inspiré d'un turboréacteur à compresseur centrifuge equipant notamment les DH100 Vampire.
 <p align="center">
   <img src="DHVampire.webp" alt="DH Vampire" width="500"/>
-</p>
+</p> 
+![TurboComp](DHVampire.png)
 
 Un **potentiomètre** permet de régler la vitesse du moteur, tandis qu’un **MOSFET** assure la commande de puissance via une alimentation externe (pile 9V).
 
