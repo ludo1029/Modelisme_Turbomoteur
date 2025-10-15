@@ -5,8 +5,8 @@ Ce projet a pour but de **reproduire le fonctionnement d’un réacteur d’avio
 Je me suis inspiré d'un turboréacteur à compresseur centrifuge equipant notamment les DH100 Vampire.
 
 <p align="center">
-  <img src="DHVampire.webp" alt="Schéma" height="400"/>
-  <img src="DHVampire.png" alt="DH Vampire" height="400"/>
+  <img src="DHVampire.webp" alt="Schéma" width="400"/>
+  <img src="DHVampire.png" alt="DH Vampire" width="400"/>
 </p>
 
 Alors en **stage chez Safran**, j’ai pu approfondir mes compétences en **CAO (Conception Assistée par Ordinateur)** et en **mécanique des systèmes aéronautiques**.  
