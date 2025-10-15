@@ -84,13 +84,14 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
     delay(10);  // Petite pause pour stabilité
   }
   ```
-  ## 🖥️ Rendu photo et video
+  ## 🖥️ Rendu photo
 
 <p align="center">
   <img src="Rendu1.JPG" alt="Sc" width="400" height="250"/>
   <img src="Rendu3.JPG" alt="Schéma" width="400" height="250"/>
 </p>
 
+## 🖥️ Rendu video
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yXf2JDLtGuI" target="_blank">
     <img src="https://img.youtube.com/vi/yXf2JDLtGuI/0.jpg" alt="Miniature vidéo" width="480">
