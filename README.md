@@ -34,7 +34,7 @@ L’objectif est de **simuler le comportement d’un réacteur** (entrée d’ai
 Le schéma suivant illustre les connexions entre les composants :
 
 <p align="center">
-  <img src="schema%20elec" alt="Schéma" width="400"/>
+  <img src="schema elec" alt="Schéma" width="400"/>
   <img src="DHVampire.png" alt="DH Vampire" width="400"/>
 </p>
 
