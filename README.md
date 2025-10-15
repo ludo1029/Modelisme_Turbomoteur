@@ -3,10 +3,15 @@
 ## 🧠 Description du projet
 Ce projet a pour but de **reproduire le fonctionnement d’un réacteur d’avion** à l’aide d’un **moteur électrique contrôlé par un Arduino Uno**.
 Je me suis inspiré d'un turboréacteur à compresseur centrifuge equipant notamment les DH100 Vampire.
+
 <p align="center">
   <img src="DHVampire.webp" alt="Schéma" width="400"/>
   <img src="DHVampire.png" alt="DH Vampire" width="400"/>
 </p>
+
+Alors en **stage chez Safran**, j’ai pu approfondir mes compétences en **CAO (Conception Assistée par Ordinateur)** et en **mécanique des systèmes aéronautiques**.  
+Ce projet m’a permis de **relier mes connaissances en mécatronique, électronique de puissance et modélisation 3D** pour créer une reproduction fonctionnelle et pédagogique d’un réacteur miniature.
+
 Un **potentiomètre** permet de régler la vitesse du moteur, tandis qu’un **MOSFET** assure la commande de puissance via une alimentation externe (pile 9V).
 
 L’objectif est de **simuler le comportement d’un réacteur** (entrée d’air, compression, combustion, turbine, tuyère) de manière visuelle et interactive.
