@@ -44,10 +44,14 @@ Le **potentiomètre** est relié à une entrée analogique pour ajuster la vites
 ---
 
 ## 🧩 Fonctionnement
-1. Le potentiomètre envoie une valeur analogique à l’Arduino.  
-2. Cette valeur est convertie en signal PWM.  
-3. Le MOSFET module la tension envoyée au moteur.  
-4. Le moteur fait tourner la turbine, simulant le comportement d’un réacteur.
+1.Le potentiomètre 10 kΩ envoie une valeur analogique à l’Arduino Uno.
+2.Cette valeur est convertie en signal PWM par l’Arduino.
+3.La résistance 220 Ω protège la sortie PWM, qui commande la gate du MOSFET N-channel.
+4.Le MOSFET module la tension envoyée au moteur DC 9V.
+5.Une diode de roue libre protège le circuit contre les surtensions générées par le moteur.
+6.Le moteur fait tourner la turbine, simulant le comportement d’un réacteur.
+7.L’ensemble est alimenté par une pile 9V, et un interrupteur permet de couper le circuit.
+8.Le montage est réalisé sur une breadboard avec des fils de connexion.
 
 ---
 
@@ -55,17 +59,35 @@ Le **potentiomètre** est relié à une entrée analogique pour ajuster la vites
 Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du moteur proportionnellement :
 
 ```cpp
-int potPin = A0;      // Entrée potentiomètre
-int motorPin = 9;     // Sortie PWM vers le MOSFET
-int potValue = 0;     
+// Déclaration des broches
+const int potPin = A0;    // Entrée analogique du potentiomètre
+const int mosfetPin = 9;  // Sortie PWM vers la gate du MOSFET
+
+int potValue = 0;          // Valeur lue du potentiomètre
+int pwmValue = 0;          // Valeur PWM calculée
 
 void setup() {
-  pinMode(motorPin, OUTPUT);
+  pinMode(mosfetPin, OUTPUT);  // MOSFET en sortie
+  Serial.begin(9600);          // Pour debug (optionnel)
 }
 
 void loop() {
+  // Lire la valeur du potentiomètre (0 à 1023)
   potValue = analogRead(potPin);
-  int motorSpeed = map(potValue, 0, 1023, 0, 255);
-  analogWrite(motorPin, motorSpeed);
+
+  // Convertir en PWM (0 à 255)
+  pwmValue = map(potValue, 0, 1023, 0, 255);
+
+  // Appliquer la PWM au MOSFET
+  analogWrite(mosfetPin, pwmValue);
+
+  // Afficher les valeurs pour debug
+  Serial.print("Potentiomètre: ");
+  Serial.print(potValue);
+  Serial.print("  PWM: ");
+  Serial.println(pwmValue);
+
+  delay(10);  // Petite pause pour stabilité
 }
+
 
