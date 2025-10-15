@@ -12,21 +12,20 @@ Je me suis inspiré d'un turboréacteur à compresseur centrifuge equipant notam
 Alors en **stage chez Safran**, j’ai pu approfondir mes compétences en **CAO (Conception Assistée par Ordinateur)** et en **mécanique des systèmes aéronautiques**.  
 Ce projet m’a permis de **relier mes connaissances en mécatronique, électronique de puissance et modélisation 3D** pour créer une reproduction fonctionnelle et pédagogique d’un réacteur miniature.
 
-Un **potentiomètre** permet de régler la vitesse du moteur, tandis qu’un **MOSFET** assure la commande de puissance via une alimentation externe (pile 9V).
-
 L’objectif est de **simuler le comportement d’un réacteur** (entrée d’air, compression, combustion, turbine, tuyère) de manière visuelle et interactive.
 
 ---
 
 ## ⚙️ Matériel utilisé
 - Arduino Uno  
-- MOSFET N-channel (ex : IRFZ44N)  
+- MOSFET N-channel
 - Moteur DC 9V  
 - Potentiomètre 10 kΩ  
 - Résistance 220 Ω  
 - Breadboard  
 - Fils de connexion  
-- Pile 9V  
+- Pile 9V
+- Interrupteur  
 
 ---
 
