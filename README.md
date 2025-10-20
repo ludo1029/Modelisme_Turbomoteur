@@ -99,3 +99,12 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
 </p>
 
 
+## 👨‍💻 Auteur
+
+**Ludovic Bocquillon**  
+Étudiant ingénieur à l’ESILV  
+Passionné de CAO, mécatronique et modélisation 3D appliquée à l’aéronautique et au naval.  
+
+📫 Contact : [LinkedIn](www.linkedin.com/in/ludovic-bocquillon-b65b73255)
+
+
