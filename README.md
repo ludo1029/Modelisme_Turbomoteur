@@ -92,12 +92,17 @@ Le programme principal lit la valeur du potentiomètre et ajuste la vitesse du m
 </p>
 
 ## 🖥️ Rendu video
+
+Imprimé en 3D et peint à la main, circuit électrique soudé sur plaque trouée
+
 <p align="center">
   <a href="https://www.youtube.com/watch?v=yXf2JDLtGuI" target="_blank">
     <img src="https://img.youtube.com/vi/yXf2JDLtGuI/0.jpg" alt="Miniature vidéo" width="480">
   </a>
 </p>
-
+<p align="center">
+(Cliquer pour lire la vidéo)
+</p>
 
 ## 👨‍💻 Auteur
 
